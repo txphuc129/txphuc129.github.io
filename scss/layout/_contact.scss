@@ -13,7 +13,10 @@
     border: none;
     border-radius: 0;
     background: none;
-    box-shadow: none !important;
+    box-shadow: -5 -5 0 0 darkblue !important;
+    &:focus{
+      background: none !important;
+    }
   }
   label {
     font-size: 0.85em;
