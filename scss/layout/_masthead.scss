@@ -9,8 +9,12 @@
     font-size: 1.25rem;
   }
   .masthead-avatar {
-    width: 15rem;
-  }
+      //width: 15rem;
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      border: 10px solid white;
+    }
 }
 
 @include media-breakpoint-up(lg) {
