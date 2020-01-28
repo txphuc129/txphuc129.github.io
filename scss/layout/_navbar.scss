@@ -10,7 +10,7 @@
   .navbar-nav {
     margin-top: 1rem;
     li.nav-item {
-      a.nav-link {
+      a.nav-link, a.nav-link i{
         color: $white;
         &:hover {
           color: $primary;

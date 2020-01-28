@@ -9649,19 +9649,19 @@ a.text-dark:hover, a.text-dark:focus {
   margin-top: 1rem;
 }
 
-#mainNav .navbar-nav li.nav-item a.nav-link {
+#mainNav .navbar-nav li.nav-item a.nav-link, #mainNav .navbar-nav li.nav-item a.nav-link i {
   color: #fff;
 }
 
-#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+#mainNav .navbar-nav li.nav-item a.nav-link:hover, #mainNav .navbar-nav li.nav-item a.nav-link i:hover {
   color: #1abc9c;
 }
 
-#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus, #mainNav .navbar-nav li.nav-item a.nav-link i:active, #mainNav .navbar-nav li.nav-item a.nav-link i:focus {
   color: #fff;
 }
 
-#mainNav .navbar-nav li.nav-item a.nav-link.active {
+#mainNav .navbar-nav li.nav-item a.nav-link.active, #mainNav .navbar-nav li.nav-item a.nav-link i.active {
   color: #1abc9c;
 }
 
