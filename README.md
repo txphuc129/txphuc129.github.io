@@ -15,7 +15,7 @@
 ## Download and Installation
 
 To begin using this template, choose one of the following options to get started:
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-freelancer.git`
+* Clone the repo: `git clone https://github.com/Mustafa-Sadriwala/acm-swe-workshop.git`
 * [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-freelancer)
 
 ## Usage
