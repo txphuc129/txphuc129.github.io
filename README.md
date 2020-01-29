@@ -25,7 +25,8 @@ Open the repository on your local machine with your favorite text editor.
 
 First we'll want to take a look at `index.html`.
 
-On *lines 10-13* change the `meta` and `title` tags to correspond with your information.
+On *lines 9-13* change the `meta` and `title` tags to correspond with your information.
+![lines-9-13](https://carbon.now.sh/?bg=rgba(171%252C%2520184%252C%2520195%252C%25201)&t=material&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%2525&si=false&es=2x&wm=false&code=%252520%252520%25253C!--%252520The%252520following%252520tags%252520are%252520important%252520for%252520web%252520crawlers%252520to%252520know%252520what%252520your%252520website%252520is%252520about%252520(SEO)--%25253E%25250A%252520%252520%25253Cmeta%252520name%25253D%252522description%252522%252520content%25253D%252522Replace%252520this%252520content%252520with%252520a%252520description%252520of%252520your%252520website%252522%25253E%25250A%252520%252520%25253Cmeta%252520name%25253D%252522author%252522%252520content%25253D%252522What's%252520your%252520name%25253F%252522%25253E%25250A%25250A%252520%252520%25253Ctitle%25253ETemoc's%252520Personal%252520Website%25253C%25252Ftitle%25253E)
 
 ### Advanced Usage
 
