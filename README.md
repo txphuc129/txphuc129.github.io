@@ -16,6 +16,17 @@ To begin using this template, choose one of the following options to get started
 
 After downloading, simply edit the HTML and CSS files included with the template in a code editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
+### Walkthrough
+
+Follow the steps to [Download and Install](#download-and-installation) this repository found above.
+Open the repository on your local machine with your favorite text editor.
+
+#### Updating Personal Information
+
+First we'll want to take a look at `index.html`.
+
+On *lines 10-13* change the `meta` and `title` tags to correspond with your information.
+
 ### Advanced Usage
 
 After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
