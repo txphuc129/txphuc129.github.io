@@ -12,17 +12,27 @@ To begin using this template, choose one of the following options to get started
 
 ## Hosting
 
-If you have forked this repository then the settings for hosting on GitHub Pages will already be configured; skip to Step 3.
-Otherwise if you have cloned this repo then start at Step 1.
+If you want to fork the repo:
+1. Press the fork button in the top-right and choose the account you want to fork it to.
+2. There will now be an identical repo in your account.
+3. Open the repository and go to the **Settings** tab.
+4. Rename the repository to your liking.
+5. Scroll down to the GitHub Pages section in the **Settings** and you will find a link to your website!
 
+If you want to clone the repo:
 1. Clone the GitHub repo to your local machine.
-2. Create a new GitHub repo and push your repo to this new repo using the following commands:
+2. Create a new GitHub repo on your account.
+3. From the cloned local repo push to your new repo on GitHub using the following commands (replacing YOU/YOUR_NEW_REPO with the appropriate values, this URL can be found on the new repo):
 ```
-$ git remote set-url origin http://github.com/YOU/YOUR_REPO
+$ git remote set-url origin http://github.com/YOU/YOUR_NEW_REPO
 $ git push remote origin
 ```
 3. Go to the repository on GitHub.
-4. Go to the **Settings** Tab and rename the repository.
+4. Go to the **Settings** Tab.
+5. Scroll to the GitHub Pages sections and choose your source branch (most likely this will be the *master* branch)
+6. The page will refresh and there will now be a link above the GitHub pages section to your website!
+
+> Note: the website will not be instantly accesible and will likely show a 404 error for a few minutes
 
 
 ## Usage
