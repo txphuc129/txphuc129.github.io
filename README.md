@@ -122,8 +122,7 @@ Also make this change in the portfolio modal for item 1 of which we altered the 
 
 Now we are going to add links to your professional social medias.
 
-On *lines 48-59* you'll find the code for the LinkedIn and GitHub icons on the navigation bar. Go ahead and put a link to your GitHub in the first `a` tag on *line 50* in the `href` attribute. Put a link to your LinkedIn in the second `a` tag on *line 56* also in the `href` attribute.
-
+On *lines 48-59* you'll find the code for the LinkedIn and GitHub icons on the navigation bar. Go ahead and put a link to your GitHub in the first `a` tag on *line 50* in the `href` attribute. Put a link to your LinkedIn in the second `a` tag on *line 56* also in the `href` attribute.  
 ![lines-48-59](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/master/img/github/48-59.png)
 
 You can repeat the same process as above on *lines 127-137* to change the buttons in the about section.
