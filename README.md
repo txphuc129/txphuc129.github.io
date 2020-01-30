@@ -1,6 +1,6 @@
 ## Preview
 
-[![Preview](https://startbootstrap.com/assets/img/screenshots/themes/freelancer.png)](https://mustafa-sadriwala.github.io/acm-swe-workshop/)
+[![Preview](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/preview)
 
 **[View Live Preview](https://mustafa-sadriwala.github.io/acm-swe-workshop/)**
 
@@ -91,6 +91,18 @@ On *lines 90-95* is the code for the resume button. Here you'll want to go to th
 
 On *lines 161-171* you'll find portfolio item 1. Here you'll want to edit the `src` attribute of the `img` tag. You should put in the relative file path to your file, which should be `img/portfolio/<image_file>`.
 ![portfolio-item-1](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/portfolio-item-1.png)
+Also make this change in the portfolio modal for item 1 of which we altered the text for above. You will need to update the `img` tag of portfolio modal 1 found on *lines 359-397*.
+
+#### Adding Links
+
+Now we are going to add links to your professional social medias.
+
+On *lines 48-59* you'll find the code for the LinkedIn and GitHub icons on the navigation bar. Go ahead and put a link to your GitHub in the first `a` tag on *line 50* in the `href` attribute. Put a link to your LinkedIn in the second `a` tag on *line 56* also in the `href` attribute.
+![lines-48-59](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/48-59.png)
+
+You can repeat the same process as above on *lines 127-137* to change the buttons in the about section.
+![lines-127-137](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/127-137.png)
+
 
 
 ### Advanced Usage
