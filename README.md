@@ -97,7 +97,8 @@ Also make this change in the portfolio modal for item 1 of which we altered the 
 
 Now we are going to add links to your professional social medias.
 
-On *lines 48-59* you'll find the code for the LinkedIn and GitHub icons on the navigation bar. Go ahead and put a link to your GitHub in the first `a` tag on *line 50* in the `href` attribute. Put a link to your LinkedIn in the second `a` tag on *line 56* also in the `href` attribute. 
+On *lines 48-59* you'll find the code for the LinkedIn and GitHub icons on the navigation bar. Go ahead and put a link to your GitHub in the first `a` tag on *line 50* in the `href` attribute. Put a link to your LinkedIn in the second `a` tag on *line 56* also in the `href` attribute.
+
 ![lines-48-59](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/48-59.png)
 
 You can repeat the same process as above on *lines 127-137* to change the buttons in the about section.
@@ -110,9 +111,11 @@ Finally, let's update what email people should contact you at.
 Go to the `mail` directory and open the file named `contact-me.php`. In here you can see the back-end code for sending an email. This email can be redirected to your personal/school email simply replace the email address for the `$to` variable. You can also customize the message/sender/subject line that you will receive when someone uses your website.
 ![contact-me.php](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/contact-me.php.png)
 
+>Note: Be aware that this constitutes putting your email on the internet. You probably already have it available on other social media platforms but if you are not comfortable with the idea of putting your personal/school email out there then we recommend deleting the contact section.
+
 ### Advanced Usage
 
-After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment. This will allow you to make change to the SCSS files and have them auto-update your the CSS files as well. SCSS offers the option of neater and more efficient styles.
 
 #### Gulp Tasks
 
@@ -122,7 +125,9 @@ After installation, run `npm install` and then run `npm start` which will open u
 - `gulp js` minifies the themes JS file
 - `gulp vendor` copies dependencies from node_modules to the vendor directory
 
-You must have npm and Gulp installed globally in order to use these features.
+>You must have npm and Gulp installed globally in order to use these features. Installation guides can be found at:
+> * https://www.npmjs.com/get-npm
+> * https://gulpjs.com/docs/en/getting-started/quick-start
 
 ## Source Details
 
