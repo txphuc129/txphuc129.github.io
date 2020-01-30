@@ -10,6 +10,31 @@ To begin using this template, choose one of the following options to get started
 * Clone the repo: `git clone https://github.com/Mustafa-Sadriwala/acm-swe-workshop.git`
 * [Fork, Clone, or Download on GitHub](https://github.com/Mustafa-Sadriwala/acm-swe-workshop)
 
+## Hosting
+
+If you want to fork the repo:
+1. Press the fork button in the top-right and choose the account you want to fork it to.
+2. There will now be an identical repo in your account.
+3. Open the repository and go to the **Settings** tab.
+4. Rename the repository to your liking.
+5. Scroll down to the GitHub Pages section in the **Settings** and you will find a link to your website!
+
+If you want to clone the repo:
+1. Clone the GitHub repo to your local machine.
+2. Create a new GitHub repo on your account.
+3. From the cloned local repo push to your new repo on GitHub using the following commands (replacing YOU/YOUR_NEW_REPO with the appropriate values, this URL can be found on the new repo):
+```
+$ git remote set-url origin http://github.com/YOU/YOUR_NEW_REPO
+$ git push remote origin
+```
+3. Go to the repository on GitHub.
+4. Go to the **Settings** Tab.
+5. Scroll to the GitHub Pages sections and choose your source branch (most likely this will be the *master* branch)
+6. The page will refresh and there will now be a link above the GitHub pages section to your website!
+
+> Note: the website will not be instantly accesible and will likely show a 404 error for a few minutes
+
+
 ## Usage
 
 ### Basic Usage
@@ -112,6 +137,10 @@ Go to the `mail` directory and open the file named `contact-me.php`. In here you
 ![contact-me.php](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/master/img/github/contact-me.php.png)
 
 >Note: Be aware that this constitutes putting your email on the internet. You probably already have it available on other social media platforms but if you are not comfortable with the idea of putting your personal/school email out there then we recommend deleting the contact section.
+
+#### An Exercise
+
+With what you've learned so far, scroll to *lines 300-337* to find the Footer section code. Now try to customize the Footer section with your own info or maybe even add something new to it altogether.
 
 ### Advanced Usage
 
