@@ -38,6 +38,60 @@ Replace ***Temoc's Page*** with your full name or a heading you would prefer. Ch
 On *lines 116-125* we'll change the About Section. Here there are going to be two columns side by side. You may have to play around a little to make sure you have the right amount of text on both sides. We recommend writing something about your interests, career objectives, and maybe even hobbies.
 ![lines-116-125](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/116-125.png)
 
+On *lines 359-397* you can find the information for the first portfolio modal. These are the modals that pop up when you click on one of the projects in the portfolio section. Change the title, **Log Cabin** to a relevant project name and change all the latin words in the `p` tag to a description of the project and what you worked on.
+![portfolio-modal-1](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/portfolio-modal-1.png)
+
+#### Adding files and images
+
+Now let's talk about adding in some files and images that are more pertinent to you.
+
+First you'll need to find a couple of images for your website. You'll want a picture of yourself, a professional headshot or just something you think you look good in for your avatar. And a generic picture to use for your first project in your portfolio.
+<pre>
+<b>./acm-swe-workshop</b>
+├── LICENSE
+├── README.md
+├── Temocs\ Resume.pdf
+├── css/
+├── gulpfile.js
+├──<b>img/</b>
+    ├── avataaars.svg
+    ├── github
+    └── <b>portfolio</b>
+        ├── cabin.png
+        ├── cake.png
+        ├── circus.png
+        ├── game.png
+        ├── safe.png
+        └── submarine.png
+├── index.html
+├── js/
+├── mail/
+├── node_modules/
+├── package-lock.json
+├── package.json
+├── scss/
+├── temoc-primary.png
+└── vendor/
+</pre>
+Put the picture of yourself in the `img` directory and put your project picture in the `img/portfolio/` directory.
+
+Place a recent copy of your resume in the main directory (`acm-swe-workshop/`). Make sure you use a .pdf file for your resume.
+
+>Note: you can delete the images in the `img/github/` directory
+
+Let's start back from the top.
+
+On *line 71* you'll find the `img` tag that controls the main avatar image at the top of the page. You'll want to replace the 
+`src` attribute to the relative file path of your profile picture. The relative file path - if you followed the steps above - should be `img/<picture_file>`. You can also go ahead and put a short description of your image (maybe your name) for the `alt` attribute.
+![lines-69-71](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/69-71.png)
+
+On *lines 90-95* is the code for the resume button. Here you'll want to go to the `a` tag and edit the `href` attribute. The `href` attribute is actually mainly used for links but can also be satisfied with file paths. In the `href` attribute put the relative file path to your resume which should be just the name of the file (i.e. `resume.pdf`) if you placed it in the main directory.
+![lines-90-95](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/90-95.png)
+
+
+On *lines 161-171* you'll find portfolio item 1. Here you'll want to edit the `src` attribute of the `img` tag. You should put in the relative file path to your file, which should be `img/portfolio/<image_file>`.
+![portfolio-item-1](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/portfolio-item-1.png)
+
 
 ### Advanced Usage
 
