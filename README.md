@@ -10,6 +10,21 @@ To begin using this template, choose one of the following options to get started
 * Clone the repo: `git clone https://github.com/Mustafa-Sadriwala/acm-swe-workshop.git`
 * [Fork, Clone, or Download on GitHub](https://github.com/Mustafa-Sadriwala/acm-swe-workshop)
 
+## Hosting
+
+If you have forked this repository then the settings for hosting on GitHub Pages will already be configured; skip to Step 3.
+Otherwise if you have cloned this repo then start at Step 1.
+
+1. Clone the GitHub repo to your local machine.
+2. Create a new GitHub repo and push your repo to this new repo using the following commands:
+```
+$ git remote set-url origin http://github.com/YOU/YOUR_REPO
+$ git push remote origin
+```
+3. Go to the repository on GitHub.
+4. Go to the **Settings** Tab and rename the repository.
+
+
 ## Usage
 
 ### Basic Usage
@@ -112,6 +127,10 @@ Go to the `mail` directory and open the file named `contact-me.php`. In here you
 ![contact-me.php](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/contact-me.php.png)
 
 >Note: Be aware that this constitutes putting your email on the internet. You probably already have it available on other social media platforms but if you are not comfortable with the idea of putting your personal/school email out there then we recommend deleting the contact section.
+
+#### An Exercise
+
+With what you've learned so far, scroll to *lines 300-337* to find the Footer section code. Now try to customize the Footer section with your own info or maybe even add something new to it altogether.
 
 ### Advanced Usage
 
