@@ -1,6 +1,6 @@
 ## Preview
 
-[![Preview](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/preview)
+![Preview](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/preview.png)
 
 **[View Live Preview](https://mustafa-sadriwala.github.io/acm-swe-workshop/)**
 
@@ -97,13 +97,18 @@ Also make this change in the portfolio modal for item 1 of which we altered the 
 
 Now we are going to add links to your professional social medias.
 
-On *lines 48-59* you'll find the code for the LinkedIn and GitHub icons on the navigation bar. Go ahead and put a link to your GitHub in the first `a` tag on *line 50* in the `href` attribute. Put a link to your LinkedIn in the second `a` tag on *line 56* also in the `href` attribute.
+On *lines 48-59* you'll find the code for the LinkedIn and GitHub icons on the navigation bar. Go ahead and put a link to your GitHub in the first `a` tag on *line 50* in the `href` attribute. Put a link to your LinkedIn in the second `a` tag on *line 56* also in the `href` attribute. 
 ![lines-48-59](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/48-59.png)
 
 You can repeat the same process as above on *lines 127-137* to change the buttons in the about section.
 ![lines-127-137](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/127-137.png)
 
+#### Getting Mail
 
+Finally, let's update what email people should contact you at. 
+
+Go to the `mail` directory and open the file named `contact-me.php`. In here you can see the back-end code for sending an email. This email can be redirected to your personal/school email simply replace the email address for the `$to` variable. You can also customize the message/sender/subject line that you will receive when someone uses your website.
+![contact-me.php](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/contact-me.php.png)
 
 ### Advanced Usage
 
