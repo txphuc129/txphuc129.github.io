@@ -1,6 +1,6 @@
 ## Preview
 
-[![Preview](https://startbootstrap.com/assets/img/screenshots/themes/freelancer.png)](https://blackrockdigital.github.io/startbootstrap-freelancer/)
+[![Preview](https://startbootstrap.com/assets/img/screenshots/themes/freelancer.png)](https://mustafa-sadriwala.github.io/acm-swe-workshop/)
 
 **[View Live Preview](https://mustafa-sadriwala.github.io/acm-swe-workshop/)**
 
@@ -28,7 +28,12 @@ First we'll want to take a look at `index.html`.
 On *lines 9-13* change the `meta` and `title` tags to correspond with your information.
 ![lines-9-13](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/9-13.png)
 
+On *line 32* change **Temoc** to your own name. This will change the name in the navigation bar.
+![lines-31-32](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/31-32.png)
 
+On *lines 73-95* let's take a look at the masthead heading. This area is going to be right below the Temoc avatar.
+Replace ***Temoc's Page*** with your full name or a heading you would prefer. Also change the description 
+![lines-73-95](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/73-95.png)
 
 ### Advanced Usage
 
