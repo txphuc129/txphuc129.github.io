@@ -21,12 +21,14 @@ After downloading, simply edit the HTML and CSS files included with the template
 Follow the steps to [Download and Install](#download-and-installation) this repository found above.
 Open the repository on your local machine with your favorite text editor.
 
-#### Updating Personal Information
+#### Changing Text
 
 First we'll want to take a look at `index.html`.
 
 On *lines 9-13* change the `meta` and `title` tags to correspond with your information.
 ![lines-9-13](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/9-13.png)
+
+
 
 ### Advanced Usage
 
