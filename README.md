@@ -1,6 +1,6 @@
 ## Preview
 
-![Preview](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/preview.png)
+![Preview](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/master/img/github/preview.png)
 
 **[View Live Preview](https://mustafa-sadriwala.github.io/acm-swe-workshop/)**
 
@@ -26,20 +26,20 @@ Open the repository on your local machine with your favorite text editor.
 First we'll want to take a look at `index.html`.
 
 On *lines 9-13* change the `meta` and `title` tags to correspond with your information.
-![lines-9-13](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/9-13.png)
+![lines-9-13](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/master/img/github/9-13.png)
 
 On *line 32* change **Temoc** to your own name. This will change the name in the navigation bar.
-![lines-31-32](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/31-32.png)
+![lines-31-32](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/master/img/github/31-32.png)
 
 On *lines 73-95* let's take a look at the masthead heading. This area is going to be right below the Temoc avatar.
 Replace ***Temoc's Page*** with your full name or a heading you would prefer. Change the description in the `p` tag to match you graduation year and major.
-![lines-73-95](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/73-95.png)
+![lines-73-95](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/master/img/github/73-95.png)
 
 On *lines 116-125* we'll change the About Section. Here there are going to be two columns side by side. You may have to play around a little to make sure you have the right amount of text on both sides. We recommend writing something about your interests, career objectives, and maybe even hobbies.
-![lines-116-125](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/116-125.png)
+![lines-116-125](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/master/img/github/116-125.png)
 
 On *lines 359-397* you can find the information for the first portfolio modal. These are the modals that pop up when you click on one of the projects in the portfolio section. Change the title, **Log Cabin** to a relevant project name and change all the latin words in the `p` tag to a description of the project and what you worked on.
-![portfolio-modal-1](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/portfolio-modal-1.png)
+![portfolio-modal-1](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/master/img/github/portfolio-modal-1.png)
 
 #### Adding files and images
 
@@ -83,14 +83,14 @@ Let's start back from the top.
 
 On *line 71* you'll find the `img` tag that controls the main avatar image at the top of the page. You'll want to replace the 
 `src` attribute to the relative file path of your profile picture. The relative file path - if you followed the steps above - should be `img/<picture_file>`. You can also go ahead and put a short description of your image (maybe your name) for the `alt` attribute.
-![lines-69-71](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/69-71.png)
+![lines-69-71](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/master/img/github/69-71.png)
 
 On *lines 90-95* is the code for the resume button. Here you'll want to go to the `a` tag and edit the `href` attribute. The `href` attribute is actually mainly used for links but can also be satisfied with file paths. In the `href` attribute put the relative file path to your resume which should be just the name of the file (i.e. `resume.pdf`) if you placed it in the main directory.
-![lines-90-95](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/90-95.png)
+![lines-90-95](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/master/img/github/90-95.png)
 
 
 On *lines 161-171* you'll find portfolio item 1. Here you'll want to edit the `src` attribute of the `img` tag. You should put in the relative file path to your file, which should be `img/portfolio/<image_file>`.
-![portfolio-item-1](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/portfolio-item-1.png)
+![portfolio-item-1](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/master/img/github/portfolio-item-1.png)
 Also make this change in the portfolio modal for item 1 of which we altered the text for above. You will need to update the `img` tag of portfolio modal 1 found on *lines 359-397*.
 
 #### Adding Links
@@ -99,17 +99,17 @@ Now we are going to add links to your professional social medias.
 
 On *lines 48-59* you'll find the code for the LinkedIn and GitHub icons on the navigation bar. Go ahead and put a link to your GitHub in the first `a` tag on *line 50* in the `href` attribute. Put a link to your LinkedIn in the second `a` tag on *line 56* also in the `href` attribute.
 
-![lines-48-59](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/48-59.png)
+![lines-48-59](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/master/img/github/48-59.png)
 
 You can repeat the same process as above on *lines 127-137* to change the buttons in the about section.
-![lines-127-137](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/127-137.png)
+![lines-127-137](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/master/img/github/127-137.png)
 
 #### Getting Mail
 
 Finally, let's update what email people should contact you at. 
 
 Go to the `mail` directory and open the file named `contact-me.php`. In here you can see the back-end code for sending an email. This email can be redirected to your personal/school email simply replace the email address for the `$to` variable. You can also customize the message/sender/subject line that you will receive when someone uses your website.
-![contact-me.php](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/contact-me.php.png)
+![contact-me.php](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/master/img/github/contact-me.php.png)
 
 >Note: Be aware that this constitutes putting your email on the internet. You probably already have it available on other social media platforms but if you are not comfortable with the idea of putting your personal/school email out there then we recommend deleting the contact section.
 
