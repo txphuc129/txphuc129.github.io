@@ -32,8 +32,12 @@ On *line 32* change **Temoc** to your own name. This will change the name in the
 ![lines-31-32](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/31-32.png)
 
 On *lines 73-95* let's take a look at the masthead heading. This area is going to be right below the Temoc avatar.
-Replace ***Temoc's Page*** with your full name or a heading you would prefer. Also change the description 
+Replace ***Temoc's Page*** with your full name or a heading you would prefer. Change the description in the `p` tag to match you graduation year and major.
 ![lines-73-95](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/73-95.png)
+
+On *lines 116-125* we'll change the About Section. Here there are going to be two columns side by side. You may have to play around a little to make sure you have the right amount of text on both sides. We recommend writing something about your interests, career objectives, and maybe even hobbies.
+![lines-116-125](https://github.com/Mustafa-Sadriwala/acm-swe-workshop/blob/README-update/img/github/116-125.png)
+
 
 ### Advanced Usage
 
